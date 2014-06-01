@@ -1,4 +1,4 @@
-userscript
+Enoch's Userscript
 ==========
 
-my collection of userscripts
+Just yet another repository of userscripts.
