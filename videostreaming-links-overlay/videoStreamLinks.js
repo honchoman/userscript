@@ -7,8 +7,9 @@
 // ==/UserScript==
 
 /*
-TODO Maybe impliment window.setinterval?
-TODO This only works with Chrome due to usage of window.preformance.getEntries.
+ * TODO Maybe impliment window.setinterval?
+ * TODO This only works with Chrome due to usage of window.preformance.getEntries.
+ *
 */
 
 (function() {

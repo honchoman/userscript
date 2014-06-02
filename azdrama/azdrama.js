@@ -6,6 +6,10 @@
 // @match      http://azdrama.se/*
 // ==/UserScript==
 
+/*
+ * TODO Maybe implimenet window.setInterval?
+ */
+
 (function() {
 	var iframes = document.querySelectorAll('iframe');
  
