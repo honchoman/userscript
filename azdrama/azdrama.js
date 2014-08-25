@@ -3,7 +3,7 @@
 // @namespace  http://gist.github.com/75664546a4dfe7fdfced
 // @version    0.1
 // @description  Remove iframe from azdrama
-// @match      http://azdrama.se/*
+// @match      http://icdrama.se/*
 // ==/UserScript==
 
 /*
