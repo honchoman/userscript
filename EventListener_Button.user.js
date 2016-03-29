@@ -67,3 +67,43 @@ function replaceAffid () {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+//////////////////////
+
+
+
+
+var style = createStyle('body{background-color:' + color + ' !important;}');
+var alreadyAdded = false;
+ 
+// add style when on board page
+waitForKeyElements(".board-wrapper", function() {
+  if (!alreadyAdded) {
+    document.body.appendChild(style);
+    alreadyAdded = true;
+  }
+});
+ 
+// remove style when on board list page
+waitForKeyElements('.member-boards-view', function() {
+  if (style.parentNode) {
+    style.parentNode.removeChild(style);
+  }
+  alreadyAdded = false;
+});
+
+
+
+
+
+
+
+
